@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TellTims Bot</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <div class="logo-wrapper">
+      <img src="logo.png" alt="Tim Hortons" class="logo" />
+    </div>
+    <h1 class="site-title">TellTims Bot</h1>
+  </div>
+</header>
+
+
+  <main>
+    <form id="survey-form">
+      <label for="code">Enter your 21-digit survey code:</label>
+      <input type="text" id="code" maxlength="21" required />
+      <button type="submit">Start Survey</button>
+    </form>
+
+    <div id="result" class="hidden"></div>
+  </main>
+
+  <footer>
+    <p>Powered by TellTims Bot · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
